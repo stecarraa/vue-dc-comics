@@ -54,14 +54,14 @@
     <div class="container-fluid ms-lower-footer-bg">
         <div class="container">
             
-              <div class="row d-flex align-items-center  justify-content-between p-5">
+              <div class="row d-flex align-items-center">
             <div class="col-6">
                 <button class="btn  btn-outline-primary text-white border-3">Sign-up NOW</button>
             </div>
-            <div class="col-6 d-flex align-items-center">
+            <div class="col-6 d-flex align-items-center justify-content-end">
                 <div class="text-uppercase ms-main-blue-color fw-bold">follow us</div>
                 
-                <ul class="list-unstyled d-flex justify-content-between">
+                <ul class="list-unstyled d-flex">
                 
                                     <li class="m-3"><img src="../assets/img/footer-facebook.png" alt=""></li>
                                     <li class="m-3"><img src="../assets/img/footer-periscope.png" alt=""></li>
