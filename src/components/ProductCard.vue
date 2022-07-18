@@ -4,7 +4,7 @@
     <div class="comic-img-container ">
         <img :src="thumbnail" :alt="series">
     </div>
-    <h4>{{ series }}</h4>
+    <h6 class="">{{ series }}</h6>
 
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .card{
 width: calc((100% / 6 ) - 20px);
 }
@@ -33,6 +33,5 @@ width: calc((100% / 6 ) - 20px);
 img{
 height: 100%;
 object-fit: contain;
-object-position: top;
-    }
+ }
 </style>

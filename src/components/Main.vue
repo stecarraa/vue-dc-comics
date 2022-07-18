@@ -1,7 +1,9 @@
 <template>
-    <div class="p-5 bg-black text-center ">
+    <div class="p-5 bg-black text-center position-relative ">
+
+      <button class="ms-position btn btn-primary text-uppercase "> Current series</button>
         <div class="d-flex flex-wrap">
-        <ProductCard v-for="(comic, index) in comicsCatologue" :key="index" class="m-1 bg-black text-white"
+        <ProductCard v-for="(comic, index) in comicsCatologue" :key="index" class="m-1 bg-black text-white p-2 fs-6"
         
         :thumbnail="comic.thumb"
         :price="comic.price"
@@ -9,6 +11,8 @@
         :type="comic.type" />
         
     </div>
+
+    <button class="btn btn-primary btn-lg">Load more</button>
     </div>
 </template> 
 
@@ -106,5 +110,9 @@ data: function() {
 </script>
 
 <style scoped lang="scss">
-
+.ms-position{
+  position: absolute;
+  top: 0%;
+  left: 30px;
+transform: translate(30px,-20px);}
 </style>
