@@ -1,5 +1,7 @@
 <template>
-  <div class="ms-container">
+  <div >
+
+    <div class="ms-container">
     <div class="row mt-2 mb-2">
         <div class="col-12 d-flex justify-content-between align-items-center">
            
@@ -20,6 +22,10 @@
             
         </div>
     </div>
+    </div>
+    <div class="jumbotron">
+  <img src="../assets/img/jumbotron.jpg" alt="">
+</div>
   
   </div>
 </template>
@@ -46,4 +52,16 @@ li{
       border-bottom: 0.5rem solid  #0282F9;
     }
 }
+
+.jumbotron{
+  height: 40vh;
+  width: 100%;
+  img {
+          width: 100%;
+          object-fit: cover;
+         
+        }
+}
+
+
 </style>

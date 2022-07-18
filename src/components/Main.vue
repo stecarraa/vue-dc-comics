@@ -1,12 +1,13 @@
 <template>
     <div class="p-5 bg-black text-center ">
-        <div>
-        <ProductCard v-for="(comic, index) in comicsCatologue" :key="index"
+        <div class="d-flex flex-wrap">
+        <ProductCard v-for="(comic, index) in comicsCatologue" :key="index" class="m-1 bg-black text-white"
         
         :thumbnail="comic.thumb"
         :price="comic.price"
         :series="comic.series"
         :type="comic.type" />
+        
     </div>
     </div>
 </template> 
